@@ -1,4 +1,5 @@
 # 안전놀이터(토토?) 서버 구성
+
 Language: PHP, MYSQL
 
 ## DB Structure
@@ -26,15 +27,17 @@ Language: PHP, MYSQL
 ## By Method
 ### GET
 - games
-- game
-    - gid // game id : integer
+- game&gid
 - money&name
-- 
+- bets&name
+- bets&uid
 
 ### POST
 - add
     - money?name&amount
-    - bet?uid&gid&price&win
-    - game?
 - reduce
     - money?name&amount
+- create
+    - bet?uid&gid&price
+    - game
+    - user?name&amount
