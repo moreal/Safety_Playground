@@ -1,0 +1,8 @@
+CREATE TABLE bets (
+    bid MEDIUMINT NOT NULL AUTO_INCREMENT,
+    uid MEDIUMINT NOT NULL,
+    gid MEDIUMINT NOT NULL,
+    price INTEGER NOT NULL,
+    win VARCHAR(4),
+    PRIMARY KEY (bid)
+);

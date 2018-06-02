@@ -1,0 +1,6 @@
+CREATE TABLE users (
+    uid MEDIUMINT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(20) NOT NULL,
+    salary INTEGER,
+    PRIMARY KEY (uid)
+);
