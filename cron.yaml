@@ -1,5 +1,0 @@
-cron:
-- description: "cron"
-  url: /auto/create/game
-  schedule: every 2 minutes
-  timezone: Asia/Seoul
